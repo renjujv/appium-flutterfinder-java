@@ -1,6 +1,7 @@
 # appium-flutterfinder-java-0.1.1
 
-Flutter finder plugin for appium-java client
+## Flutter finder plugin for appium-java client
+Element finder plugin for integrating Flutter Apps testing using Appium. The plugin helps to find the elements using key locator in an Android App developed using Flutter.
 
 Sample code
 ```
@@ -14,8 +15,9 @@ Contains the Java port for FlutterElement ported from kotlin code for the same f
 FlutterElement extends the MobileElement Class. Therefore, all the basic actions like click, sendKeys e.t.c are supported.
 
 ### TODO
-- [ ] Add Testing Code
-- [ ] Implement mocking for selenium webdriver
+- [x] Add Testing Code
+- [x] Implement mocking for selenium webdriver
+- [x] Add locatos by key
 - [ ] Add locators by text
 - [ ] Add locators by byTooltip
 - [ ] Add locators by bySemanticsLabel
